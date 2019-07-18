@@ -14,14 +14,16 @@ or
 ```
 
 #### Step 2: Create an AWS Queue
+- Make sure the queue is a `Standard Queue`
 - Note the queue name
 - Note the queue URL
+- If you're not sure how to do this, google search it
 
 #### Step 3: Edit the QPublisher and QClient code
-For QPublisher, edit the following: `src/main/java/qpublisher/App.java`
+For QPublisher, edit the following: `qpublisher/src/main/java/qpublisher/App.java`
 - On line 19, change `QueueA` to whatever you named your queue
 
-For QClient, edit the following: `src/main/java/qpublisher/App.java`
+For QClient, edit the following: `qclient/src/main/java/qclient/App.java`
 - On line 17, change `QueueA` to whatever you named your queue
 
 #### Step 4: Ensure in your terminal environment that `AWS configure` is setup correctly
