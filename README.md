@@ -36,3 +36,7 @@ Add in your AWS client key and secret key
 If you do not have an AWS client and secret key, then google search it.
 
 If you do not have AWS CLI installed in your terminal, then google search it.
+
+## Resources:
+https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues-getting-started-java.html
+
