@@ -18,7 +18,9 @@ public class App {
         try {
             final CreateQueueRequest createQueueRequest = new CreateQueueRequest("QueueA");
             final String myQueueUrl = sqs.createQueue(createQueueRequest).getQueueUrl();
-            sqs.sendMessage(new SendMessageRequest(myQueueUrl,"This is my message text #" + Math.floor(Math.random() * 100) ));
+            final String messageBody = "This is my message text #" + Math.floor(Math.random() * 100);
+            sqs.sendMessage(new SendMessageRequest(myQueueUrl, messageBody) );
+            System.out.println("Message sent:     " + messageBody);
         } catch (final AmazonClientException ace) {
             System.out.println("Error Message: " + ace.getMessage());
         }
