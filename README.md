@@ -40,3 +40,5 @@ If you do not have AWS CLI installed in your terminal, then google search it.
 ## Resource:
 https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues-getting-started-java.html
 
+
+
