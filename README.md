@@ -1,3 +1,3 @@
-# SQS + SNS Demo
+# SQS Demo
 
 Instructions coming...
